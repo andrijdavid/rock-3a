@@ -28,7 +28,7 @@ jobs:
         boards: [rock-3a]
         build_systems: [rbuild]
         distros: [debian, ubuntu]
-        flavors: [xfce, cli]
+        flavors: [cli]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
